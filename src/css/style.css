@@ -1,0 +1,58 @@
+.searchWrapper {
+  border: 0px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 50%;
+}
+
+.inputDiv,
+.outputDiv {
+  border: 0px solid #09f;
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.outputDiv {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.searchWrapper .search,
+.searchWrapper .save,
+.searchWrapper .query {
+  height: 50px;
+}
+
+.searchWrapper .search {
+  border: 1px solid #95a5a6;
+  flex: 1;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 0 15px;
+}
+
+.searchWrapper .save,
+.searchWrapper .query {
+  background: none;
+  border: 1px solid #eee;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.searchWrapper .save {
+  background: #3498db;
+}
+
+.searchWrapper .query {
+  background: #d35400;
+  margin-left: 5px;
+}
+
+.searchWrapper .output {
+  width: 100%;
+  word-break: break-word;
+}
